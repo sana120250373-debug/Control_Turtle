@@ -1,0 +1,23 @@
+running egg_info
+writing build/control_turtle/control_turtle.egg-info/PKG-INFO
+writing dependency_links to build/control_turtle/control_turtle.egg-info/dependency_links.txt
+writing entry points to build/control_turtle/control_turtle.egg-info/entry_points.txt
+writing requirements to build/control_turtle/control_turtle.egg-info/requires.txt
+writing top-level names to build/control_turtle/control_turtle.egg-info/top_level.txt
+reading manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+writing manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying control_turtle/Movment_node.py -> /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle
+running install
+running install_lib
+copying /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle/Movment_node.py -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle
+byte-compiling /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle/Movment_node.py to Movment_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/control_turtle/control_turtle.egg-info to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Movment_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+Installing perception_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+writing list of installed files to '/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log'

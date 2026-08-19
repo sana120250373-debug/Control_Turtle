@@ -1,0 +1,25 @@
+[2.187s] Invoking command in '/home/sana/colcon1_ws/src/control_turtle': PYTHONPATH=/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_turtle build --build-base /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build install --record /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log --single-version-externally-managed install_data
+[3.048s] running egg_info
+[3.050s] writing build/control_turtle/control_turtle.egg-info/PKG-INFO
+[3.053s] writing dependency_links to build/control_turtle/control_turtle.egg-info/dependency_links.txt
+[3.053s] writing entry points to build/control_turtle/control_turtle.egg-info/entry_points.txt
+[3.054s] writing requirements to build/control_turtle/control_turtle.egg-info/requires.txt
+[3.054s] writing top-level names to build/control_turtle/control_turtle.egg-info/top_level.txt
+[3.058s] reading manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+[3.061s] writing manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+[3.062s] running build
+[3.062s] running build_py
+[3.063s] copying control_turtle/Movment_node.py -> /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle
+[3.063s] running install
+[3.064s] running install_lib
+[3.067s] copying /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle/Movment_node.py -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle
+[3.070s] byte-compiling /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle/Movment_node.py to Movment_node.cpython-310.pyc
+[3.072s] running install_data
+[3.073s] running install_egg_info
+[3.080s] removing '/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[3.080s] Copying build/control_turtle/control_turtle.egg-info to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle-0.0.0-py3.10.egg-info
+[3.082s] running install_scripts
+[3.149s] Installing Movment_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+[3.151s] Installing perception_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+[3.151s] writing list of installed files to '/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log'
+[3.243s] Invoked command in '/home/sana/colcon1_ws/src/control_turtle' returned '0': PYTHONPATH=/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_turtle build --build-base /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build install --record /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log --single-version-externally-managed install_data
