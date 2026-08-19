@@ -25,7 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'Movment_node = control_turtle.Movment_node:main',
-            'perception_node =control_turtle.perception_node:main',
+            'perception_node = control_turtle.perception_node:main',
 
         ],
     },

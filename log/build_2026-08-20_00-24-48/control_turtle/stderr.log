@@ -1,0 +1,5 @@
+  File "/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle/perception_node.py", line 61
+    if __name__ == __'main'__:
+                     ^^^^^^
+SyntaxError: invalid syntax
+

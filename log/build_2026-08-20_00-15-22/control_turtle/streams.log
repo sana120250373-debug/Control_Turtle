@@ -1,0 +1,25 @@
+[2.013s] Invoking command in '/home/sana/colcon1_ws/src/control_turtle': PYTHONPATH=/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_turtle build --build-base /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build install --record /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log --single-version-externally-managed install_data
+[2.788s] running egg_info
+[2.790s] writing build/control_turtle/control_turtle.egg-info/PKG-INFO
+[2.791s] writing dependency_links to build/control_turtle/control_turtle.egg-info/dependency_links.txt
+[2.792s] writing entry points to build/control_turtle/control_turtle.egg-info/entry_points.txt
+[2.792s] writing requirements to build/control_turtle/control_turtle.egg-info/requires.txt
+[2.793s] writing top-level names to build/control_turtle/control_turtle.egg-info/top_level.txt
+[2.798s] reading manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+[2.800s] writing manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+[2.803s] running build
+[2.804s] running build_py
+[2.804s] copying control_turtle/perception_node.py -> /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle
+[2.805s] running install
+[2.805s] running install_lib
+[2.806s] copying /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle/perception_node.py -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle
+[2.809s] byte-compiling /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle/perception_node.py to perception_node.cpython-310.pyc
+[2.811s] running install_data
+[2.811s] running install_egg_info
+[2.817s] removing '/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[2.818s] Copying build/control_turtle/control_turtle.egg-info to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle-0.0.0-py3.10.egg-info
+[2.821s] running install_scripts
+[2.889s] Installing Movment_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+[2.889s] Installing perception_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+[2.890s] writing list of installed files to '/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log'
+[2.986s] Invoked command in '/home/sana/colcon1_ws/src/control_turtle' returned '0': PYTHONPATH=/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_turtle build --build-base /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build install --record /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log --single-version-externally-managed install_data

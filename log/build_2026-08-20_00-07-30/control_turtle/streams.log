@@ -1,0 +1,41 @@
+[1.811s] Invoking command in '/home/sana/colcon1_ws/src/control_turtle': PYTHONPATH=/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_turtle build --build-base /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build install --record /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log --single-version-externally-managed install_data
+[2.512s] running egg_info
+[2.515s] creating build/control_turtle/control_turtle.egg-info
+[2.516s] writing build/control_turtle/control_turtle.egg-info/PKG-INFO
+[2.516s] writing dependency_links to build/control_turtle/control_turtle.egg-info/dependency_links.txt
+[2.517s] writing entry points to build/control_turtle/control_turtle.egg-info/entry_points.txt
+[2.517s] writing requirements to build/control_turtle/control_turtle.egg-info/requires.txt
+[2.517s] writing top-level names to build/control_turtle/control_turtle.egg-info/top_level.txt
+[2.518s] writing manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+[2.521s] reading manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+[2.524s] writing manifest file 'build/control_turtle/control_turtle.egg-info/SOURCES.txt'
+[2.525s] running build
+[2.525s] running build_py
+[2.526s] creating /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build
+[2.526s] creating /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib
+[2.527s] creating /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle
+[2.527s] copying control_turtle/perception_node.py -> /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle
+[2.527s] copying control_turtle/Movment_node.py -> /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle
+[2.527s] copying control_turtle/__init__.py -> /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle
+[2.528s] running install
+[2.528s] running install_lib
+[2.531s] creating /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle
+[2.531s] copying /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle/perception_node.py -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle
+[2.532s] copying /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle/Movment_node.py -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle
+[2.532s] copying /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build/lib/control_turtle/__init__.py -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle
+[2.534s] byte-compiling /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle/perception_node.py to perception_node.cpython-310.pyc
+[2.536s] byte-compiling /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle/Movment_node.py to Movment_node.cpython-310.pyc
+[2.538s] byte-compiling /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle/__init__.py to __init__.cpython-310.pyc
+[2.539s] running install_data
+[2.539s] creating /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/share/ament_index
+[2.540s] creating /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/share/ament_index/resource_index
+[2.540s] creating /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/share/ament_index/resource_index/packages
+[2.540s] copying resource/control_turtle -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/share/ament_index/resource_index/packages
+[2.541s] copying package.xml -> /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/share/control_turtle
+[2.541s] running install_egg_info
+[2.548s] Copying build/control_turtle/control_turtle.egg-info to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages/control_turtle-0.0.0-py3.10.egg-info
+[2.551s] running install_scripts
+[2.621s] Installing Movment_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+[2.622s] Installing perception_node script to /home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/control_turtle
+[2.623s] writing list of installed files to '/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log'
+[2.707s] Invoked command in '/home/sana/colcon1_ws/src/control_turtle' returned '0': PYTHONPATH=/home/sana/colcon1_ws/src/control_turtle/build/control_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sana/colcon1_ws/src/control_turtle/install/control_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_turtle build --build-base /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/build install --record /home/sana/colcon1_ws/src/control_turtle/build/control_turtle/install.log --single-version-externally-managed install_data
