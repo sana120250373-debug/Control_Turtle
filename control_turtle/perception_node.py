@@ -8,27 +8,37 @@ from std_msgs.msg import String
 class PerceptionNode(Node):
     def __init__(self):
         super().__init__('perception_node')
+
+        self.declare_parameter ('sub_topic','/turtle1/color_sensor') #init topic parameter and store its default value
+        self.declare_parameter ('pub_topic','/dominant_color')
+        self.declare_parameter ('frame_id','turtle')
         
+        sub_topic_val = self.get_parameter('sub_topic').value ## get topic store value
+        pub_topic_val = self.get_parameter('pub_topic').value
+        self.frame_id = self.get_parameter('frame_id').value
+
+        
+
         self.color_sub = self.create_subscription( ##create subscriber to know color
             Color,
-            '/turtle1/color_sensor',
+            sub_topic_val,
             self.color_callback,
             10
         )
         
         self.dominant_color_pub = self.create_publisher(  ##publish el dominant color
             String,
-            '/dominant_color',
+            pub_topic_val,
             10
         )
         
-        self.get_logger().info("Started Listening to /turtle1/color_sensor...")
+        self.get_logger().info(f"Started Listening to {sub_topic_val}...")
 
     def color_callback(self, msg: Color):
-        
+    
         r = msg.r
-        g = msg.g
         b = msg.b
+        g = msg.g
         
         if r >= g and r >= b:
             major_color = "Red"
@@ -39,7 +49,9 @@ class PerceptionNode(Node):
         else:
             major_color = "Blue"
 
-        self.get_logger().info(f"Dominant Color: {major_color} (R: {r}, G: {g}, B: {b})")
+        current_time = self.get_clock().now().to_msg() ## get time and convert it to msg
+
+        self.get_logger().info(f" Frame_id :{self.frame_id}, Time :{current_time.sec},Dominant Color: {major_color} (R: {r}, G: {g}, B: {b})")
 
         color_msg = String()
         color_msg.data = major_color
